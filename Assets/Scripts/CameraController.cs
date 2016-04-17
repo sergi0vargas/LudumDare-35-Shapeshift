@@ -3,13 +3,13 @@ using System.Collections;
 
 public class CameraController : MonoBehaviour {
 
-    Transform player;
+    public Transform player;
     public float camSpeed = 5;
     Vector3 temp;
 
 	// Use this for initialization
 	void Start () {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent("Transform") as Transform;
+        //player = GameObject.FindGameObjectWithTag("Player").GetComponent("Transform") as Transform;
         temp = new Vector3(player.position.x, player.position.y, transform.position.z);
     }
 	
