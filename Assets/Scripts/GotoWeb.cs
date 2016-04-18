@@ -7,7 +7,7 @@ public class GotoWeb : MonoBehaviour {
     {
         if(link == null)
         {
-            Application.OpenURL("http://ludumdare.com/compo/ludum-dare-3");
+            Application.OpenURL("http://ludumdare.com/compo/ludum-dare-35/?action=preview&uid=44969");
         }else
         {
             Application.OpenURL(link);
