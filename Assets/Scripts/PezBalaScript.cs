@@ -27,7 +27,7 @@ public class PezBalaScript : MonoBehaviour
             Destroy(other.gameObject);
         if (other.gameObject.tag.Equals("Boss"))
         {
-            if (other.gameObject.GetComponent<Boss>().numberOfShots > 3)
+            if (other.gameObject.GetComponent<Boss>().numberOfShots > 5)
                 Destroy(other.gameObject);
             else
                 other.gameObject.GetComponent<Boss>().numberOfShots++;

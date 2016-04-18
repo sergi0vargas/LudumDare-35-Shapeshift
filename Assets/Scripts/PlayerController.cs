@@ -45,8 +45,7 @@ public class PlayerController : MonoBehaviour {
             toggleCanShoot.isOn = true;
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                GameObject ga;
-                ga = Instantiate(bullet, transform.position, transform.rotation) as GameObject;
+                Instantiate(bullet, transform.position, transform.rotation);
             }
         }
         else
